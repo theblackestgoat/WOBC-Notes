@@ -1,0 +1,56 @@
+>>>> 2 + 2
+4
+>>>>
+
+In this case, "2 + 2" is an expression
+"2" is a value  
+"+" is an operator
+Therefor, expressions are values comined with operators
+
+Math Operators from highest to lowest prescedence
+Operator  Operation             Example   Evaluates to..
+**        Exponent              2 ** 3    8
+%         Modulus/remainter     22 % 8    6
+//        Intefer division      22 // 8   2
+/         Division              22 / 8    2.75
+*         Multiplication        3 * 5     15
+-         Subtraction           5 - 2     3
++         Addition              6 + 9     15
+
+Data types                        Example
+Integers (int)                    -2, -1, 0, 1, 2, 3, etc...
+Floating-point numbers (float)    -1.25, -.75, 0.0, 1.25, 2.5, etc...
+Strings (str)                     'a', 'aa', 'aaa', 'Hello!', '11 cats'
+
+String Concatenation and Replication
+>>>> 'Alice' + 'Bob'
+AliceBob
+
+>>>> 'Alice' * 5
+AliceALiceAliceAliceAlice
+
+Assigning Variables
+>>>> spam = 42
+>>>> spam
+42
+>>>> eggs = 4
+>>>> spam + eggs
+46
+>>>> spam = spam + 2
+>>>> spam
+44
+
+Sample Script 001
+# This program says hello and asks for my name.
+print('Hello, world!')
+print('What is your name?') # ask for their name
+myName = input()
+print('It is good to meet you, ' + myName)
+print('The length of your name is:')
+print(len(myName))
+print('What is your age?')
+myAge = input()
+print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+
+
+
